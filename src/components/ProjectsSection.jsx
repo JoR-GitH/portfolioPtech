@@ -1,5 +1,5 @@
 import React from 'react'
-import {ExternalLink, Github} from "lucide-react";
+import {ArrowRight, ExternalLink, Github} from "lucide-react";
 
 const projects = [
     {
@@ -84,6 +84,16 @@ const ProjectsSection = () => {
                             </div>
                         </div>
                     ))}
+                </div>
+
+                <div className="text-center mt-12">
+                    <a
+                        href="https://github.com/JoR-GitH"
+                        target="_blank" rel="noreferrer"
+                        className="cosmic-button flex items-center mx-auto w-fit"
+                    >
+                        Check my GitHub <ArrowRight size={16} />
+                    </a>
                 </div>
             </div>
         </section>
